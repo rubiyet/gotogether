@@ -11,7 +11,7 @@ export class BooksService {
   }
 
   addBook(data) {
-    console.log('Data return', data);
+    // console.log('Data return', data);
     return data.name;
   }
 }
